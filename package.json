@@ -2,6 +2,7 @@
   "name": "root",
   "version": "1.0.0",
   "license": "ISC",
+  "prepare": "git update-index skip-worktree -- .npmrc",
   "dependencies": {
     "lerna": "^4.0.0"
   }
