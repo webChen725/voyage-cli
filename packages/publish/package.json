@@ -1,5 +1,5 @@
 {
-  "name": "@voyage-cli/publish",
+  "name": "voyage-cli-publish",
   "version": "1.0.13",
   "description": "@voyage-cli/publish",
   "author": "chenguangxue <chenguangxue@bytedance.com>",
@@ -31,5 +31,5 @@
     "simple-git": "^2.39.0",
     "user-home": "^3.0.0"
   },
-  "gitHead": "c571c1e8290d11cc6af6037c8d527e9dae24c1b2"
+  "gitHead": "e82acba7ced8a11b0cb3090d16148fa07fc009c8"
 }

@@ -157,7 +157,7 @@ function registerCommand(){
         .description('项目初始化')
         .option("-f, --force", "是否强制初始化项目")
         .action(async (projectName, { force }) => {
-            const packageName = "@voyage-cli/init";
+            const packageName = "voyage-cli-init";
             const packageVersion = "latest";
             const packagePath = process.env.CLI_TARGET_PATH;
             await exec({ packagePath, packageName, packageVersion }, { projectName, force }, { config, args })
@@ -171,7 +171,7 @@ function registerCommand(){
         .option('--force', '强制更新所有缓存信息')
         .option('--prod', '正式发布')
         .action(async ({ refreshToken, refreshOwner, refreshServer, force, prod }) => {
-            const packageName = '@voyage-cli/commit';
+            const packageName = 'voyage-cli-commit';
             const packageVersion = 'latest';
             const packagePath = process.env.CLI_TARGET_PATH;
             if (force) {
@@ -190,7 +190,7 @@ function registerCommand(){
     program.command("publish")
         .description("项目自动发布到云服务器")
         .action(async () => {
-            const packageName = '@voyage-cli/publish';
+            const packageName = 'voyage-cli-publish';
             const packageVersion = 'latest';
             const packagePath = process.env.CLI_TARGET_PATH;
             await exec({packagePath, packageName, packageVersion}, {}, { config, args });
