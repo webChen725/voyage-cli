@@ -1,6 +1,6 @@
 {
   "name": "@voyage-cli/core",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "@voyage-cli/core",
   "author": "chenguangxue <chenguangxue@bytedance.com>",
   "homepage": "",
@@ -23,7 +23,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@voyage-cli/utils": "^1.0.7",
+    "@voyage-cli/utils": "^1.0.8",
     "colors": "^1.4.0",
     "commander": "^6.2.1",
     "dotenv": "^10.0.0",

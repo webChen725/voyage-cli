@@ -1,6 +1,6 @@
 {
   "name": "@voyage-cli/commit",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "@voyage-cli/commit",
   "author": "chenguangxue <chenguangxue@bytedance.com>",
   "homepage": "",
@@ -20,7 +20,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@voyage-cli/utils": "^1.0.7",
+    "@voyage-cli/utils": "^1.0.8",
     "colors": "^1.4.0",
     "fs-extra": "^10.0.0"
   },
