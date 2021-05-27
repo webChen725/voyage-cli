@@ -1,7 +1,7 @@
 {
-  "name": "@voyage-cli/publish",
+  "name": "voyage-cli/publish",
   "version": "1.0.12",
-  "description": "@voyage-cli/publish",
+  "description": "voyage-cli/publish",
   "author": "chenguangxue <chenguangxue@bytedance.com>",
   "homepage": "",
   "license": "ISC",
@@ -31,5 +31,5 @@
     "simple-git": "^2.39.0",
     "user-home": "^3.0.0"
   },
-  "gitHead": "21332302d8ec9e32924c95dad34b906d52ff9cfb"
+  "gitHead": "c571c1e8290d11cc6af6037c8d527e9dae24c1b2"
 }

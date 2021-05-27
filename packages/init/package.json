@@ -1,7 +1,7 @@
 {
-  "name": "@voyage-cli/init",
+  "name": "voyage-cli/init",
   "version": "1.0.12",
-  "description": "@voyage-cli/init",
+  "description": "voyage-cli/init",
   "author": "chenguangxue <chenguangxue@bytedance.com>",
   "homepage": "",
   "license": "ISC",
@@ -33,5 +33,5 @@
     "semver": "^7.3.5",
     "user-home": "^3.0.0"
   },
-  "gitHead": "21332302d8ec9e32924c95dad34b906d52ff9cfb"
+  "gitHead": "c571c1e8290d11cc6af6037c8d527e9dae24c1b2"
 }
