@@ -16,6 +16,10 @@
   "publishConfig": {
     "access": "public"
   },
+  "repository": {
+    "type": "gitee",
+    "url": "gitee+https://gitee.com/chensir725/voyage-cli.git"
+  },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
@@ -27,5 +31,5 @@
     "simple-git": "^2.39.0",
     "user-home": "^3.0.0"
   },
-  "gitHead": "4916945b5dfe8887c7add7aea98990e23acbe1c2"
+  "gitHead": "21332302d8ec9e32924c95dad34b906d52ff9cfb"
 }
