@@ -1,0 +1,24 @@
+{
+  "name": "@voyage-cli/commit",
+  "version": "1.0.0",
+  "description": "@voyage-cli/commit",
+  "author": "chenguangxue <chenguangxue@bytedance.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@voyage-cli/utils": "file:../utils",
+    "colors": "^1.4.0",
+    "fs-extra": "^10.0.0"
+  }
+}

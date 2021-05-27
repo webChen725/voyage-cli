@@ -1,0 +1,27 @@
+{
+  "name": "@voyage-cli/publish",
+  "version": "1.0.0",
+  "description": "@voyage-cli/publish",
+  "author": "chenguangxue <chenguangxue@bytedance.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@voyage-cli/utils": "file:../utils",
+    "ejs": "^3.1.6",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.1.0",
+    "simple-git": "^2.39.0",
+    "user-home": "^3.0.0"
+  }
+}
