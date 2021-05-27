@@ -4,4 +4,8 @@ node_modules/
 packages/**/node_modules
 *.log
 package-lock.json
-demo
+packages/commit/package-lock.json
+packages/core/package-lock.json
+packages/init/package-lock.json
+packages/publish/package-lock.json
+packages/utils/package-lock.json
