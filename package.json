@@ -1,8 +1,7 @@
 {
-  "name": "root",
+  "name": "voyage-cli",
   "version": "1.0.0",
   "license": "ISC",
-  "private": true,
   "publishConfig": {
     "access": "public"
   },
