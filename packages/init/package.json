@@ -1,6 +1,6 @@
 {
   "name": "@voyage-cli/init",
-  "version": "1.0.10",
+  "version": "1.0.12",
   "description": "@voyage-cli/init",
   "author": "chenguangxue <chenguangxue@bytedance.com>",
   "homepage": "",
@@ -24,7 +24,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@voyage-cli/utils": "^1.0.10",
+    "@voyage-cli/utils": "^1.0.12",
     "ejs": "^3.1.6",
     "fs-extra": "^10.0.0",
     "glob": "^7.1.7",
