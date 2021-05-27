@@ -2,9 +2,7 @@
   "name": "voyage-cli",
   "version": "1.0.0",
   "license": "ISC",
-  "publishConfig": {
-    "access": "public"
-  },
+  "private": true,
   "dependencies": {
     "lerna": "^4.0.0"
   }
