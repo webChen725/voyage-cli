@@ -1,6 +1,6 @@
 {
   "name": "@voyage-cli/commit",
-  "version": "1.0.11",
+  "version": "1.0.10",
   "description": "@voyage-cli/commit",
   "author": "chenguangxue <chenguangxue@bytedance.com>",
   "homepage": "",
@@ -16,11 +16,15 @@
   "publishConfig": {
     "access": "public"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webChen725/voyage-cli.git"
+  },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@voyage-cli/utils": "^1.0.11",
+    "@voyage-cli/utils": "^1.0.10",
     "colors": "^1.4.0",
     "fs-extra": "^10.0.0"
   },
