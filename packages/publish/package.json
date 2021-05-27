@@ -1,7 +1,7 @@
 {
-  "name": "voyage-cli/publish",
+  "name": "@voyage-cli/publish",
   "version": "1.0.12",
-  "description": "voyage-cli/publish",
+  "description": "@voyage-cli/publish",
   "author": "chenguangxue <chenguangxue@bytedance.com>",
   "homepage": "",
   "license": "ISC",

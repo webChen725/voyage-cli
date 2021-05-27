@@ -1,7 +1,7 @@
 {
-  "name": "voyage-cli/utils",
+  "name": "@voyage-cli/utils",
   "version": "1.0.12",
-  "description": "voyage-cli/utils",
+  "description": "@voyage-cli/utils",
   "author": "chenguangxue <chenguangxue@bytedance.com>",
   "homepage": "",
   "license": "ISC",

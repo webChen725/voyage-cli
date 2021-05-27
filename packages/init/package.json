@@ -1,7 +1,7 @@
 {
-  "name": "voyage-cli/init",
+  "name": "@voyage-cli/init",
   "version": "1.0.12",
-  "description": "voyage-cli/init",
+  "description": "@voyage-cli/init",
   "author": "chenguangxue <chenguangxue@bytedance.com>",
   "homepage": "",
   "license": "ISC",

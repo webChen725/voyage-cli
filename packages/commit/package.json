@@ -1,7 +1,7 @@
 {
-  "name": "voyage-cli/commit",
+  "name": "@voyage-cli/commit",
   "version": "1.0.12",
-  "description": "voyage-cli/commit",
+  "description": "@voyage-cli/commit",
   "author": "chenguangxue <chenguangxue@bytedance.com>",
   "homepage": "",
   "license": "ISC",
