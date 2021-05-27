@@ -1,7 +1,5 @@
 {
   "name": "root",
-  "version": "1.0.0",
-  "license": "ISC",
   "private": true,
   "dependencies": {
     "lerna": "^4.0.0"
