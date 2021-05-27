@@ -17,8 +17,8 @@
     "access": "public"
   },
   "repository": {
-    "type": "gitee",
-    "url": "gitee+https://gitee.com/chensir725/voyage-cli.git"
+    "type": "git",
+    "url": "git+https://github.com/webChen725/voyage-cli.git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
