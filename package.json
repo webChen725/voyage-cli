@@ -2,7 +2,10 @@
   "name": "root",
   "version": "1.0.0",
   "license": "ISC",
-  "prepare": "git update-index skip-worktree -- .npmrc",
+  "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "lerna": "^4.0.0"
   }
