@@ -11,6 +11,7 @@ const path = require("path");
 const { log, npm, Package, exec: spawn } = require("@voyage-cli/utils");
 const pkg = require("../package.json");
 const DEFAULT_CLI_HOME = ".voyage-cli";
+const DEPENDENCIES_PATH = "dependencies";
 const { getNpmSemverVersion } = npm;
 
 let config;
@@ -230,7 +231,6 @@ function registerCommand(){
 async function exec({ packagePath, packageName, packageVersion }, extraOptions, baseOption) {
     let rootFile;
     const { config, args } = baseOption;
-    console.log(packagePath, packageName, packageVersion)
     try {
         if(packagePath){
             const execPackage = new Package({

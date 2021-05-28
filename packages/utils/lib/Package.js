@@ -69,6 +69,7 @@ class Package {
      */
     async install(){
         await this.prepare();
+        console.log("安装")
         return npminstall({
             root: this.targetPath,
             storeDir: this.storeDir,

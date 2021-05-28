@@ -24,8 +24,8 @@ module.exports = function(){
             ignore: [ '**/public/**' ]
         },
         {
-          name: 'voyage组件库模版',
-          npmName: 'voyage-cli-components',
+          name: 'voyage Vue组件库模版',
+          npmName: 'voyage-cli-vue-components',
           version: '1.0.0',
           type: 'normal',
           installCommand: 'npm install --registry=https://registry.npm.taobao.org',
@@ -39,7 +39,7 @@ module.exports = function(){
           version: '1.0.0',
           type: 'normal',
           installCommand: 'npm install',
-          startCommand: 'npm run dev',
+          startCommand: 'npm run start',
           tag: [ 'project' ],
           ignore: [ '**/public/**' ]
         }
