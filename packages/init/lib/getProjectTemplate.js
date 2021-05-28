@@ -6,7 +6,7 @@ module.exports = function(){
         {
           name: 'vue2标准模版库',
           npmName: 'voyage-cli-vue2',
-          version: '1.0.0',
+          version: '1.0.1',
           type: 'normal',
           installCommand: 'npm install',
           startCommand: 'npm run serve',
