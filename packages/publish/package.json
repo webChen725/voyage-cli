@@ -1,6 +1,6 @@
 {
   "name": "voyage-cli-publish",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "@voyage-cli/publish",
   "author": "chenguangxue <chenguangxue@bytedance.com>",
   "homepage": "",
@@ -24,12 +24,12 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "voyage-cli-utils": "file:../utils",
     "ejs": "^3.1.6",
     "fs-extra": "^10.0.0",
     "inquirer": "^8.1.0",
     "simple-git": "^2.39.0",
-    "user-home": "^3.0.0"
+    "user-home": "^3.0.0",
+    "voyage-cli-utils": "file:../utils"
   },
   "gitHead": "72dba97582210eab850783767d302ca9f16fb377"
 }
