@@ -7,7 +7,7 @@ const ejs = require("ejs");
 const glob = require("glob");
 const semver = require("semver");
 const userHome = require("user-home");
-const { log, Package, Command, spinnerStart, sleep, execAsync } = require("@voyage-cli/utils");
+const { log, Package, Command, spinnerStart, sleep, execAsync } = require("voyage-cli-utils");
 const getProjectTemplate = require("./getProjectTemplate");
 
 const TYPE_PROJECT = "project";

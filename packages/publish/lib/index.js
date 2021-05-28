@@ -6,7 +6,7 @@ const url = require("url");
 const SimpleGit = require("simple-git");
 const userHome = require("user-home");
 const ejs = require("ejs");
-const { log, Command, ssh } = require("@voyage-cli/utils");
+const { log, Command, ssh } = require("voyage-cli-utils");
 const { Connect, uploadFileToServer, execCommand, closeConn } = ssh;
 const inquirer = require("./inquirer");
 

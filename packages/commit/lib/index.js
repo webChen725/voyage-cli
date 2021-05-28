@@ -3,7 +3,7 @@ const path = require("path");
 const fs = require("fs");
 const fse = require("fs-extra");
 const colors = require("colors");
-const { Command, log, Git } = require("@voyage-cli/utils");
+const { Command, log, Git } = require("voyage-cli-utils");
 
 class PublishCommand extends Command {
     async init(){
