@@ -1,6 +1,6 @@
 {
   "name": "voyage-cli-publish",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "@voyage-cli/publish",
   "author": "chenguangxue <chenguangxue@bytedance.com>",
   "homepage": "",
@@ -30,7 +30,7 @@
     "pkg-dir": "^5.0.0",
     "simple-git": "^2.39.0",
     "user-home": "^3.0.0",
-    "voyage-cli-utils": "^1.0.17"
+    "voyage-cli-utils": "^1.0.18"
   },
   "gitHead": "22abd27c81bbba3878f74bd7ddf75049aed5b4b8"
 }
