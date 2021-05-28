@@ -26,6 +26,7 @@
   "dependencies": {
     "colors": "^1.4.0",
     "fs-extra": "^10.0.0",
+    "pkg-dir": "^5.0.0",
     "voyage-cli-utils": "^1.0.17"
   },
   "gitHead": "22abd27c81bbba3878f74bd7ddf75049aed5b4b8"

@@ -29,6 +29,7 @@
     "glob": "^7.1.7",
     "inquirer": "^8.1.0",
     "kebab-case": "^1.0.1",
+    "pkg-dir": "^5.0.0",
     "semver": "^7.3.5",
     "user-home": "^3.0.0",
     "voyage-cli-utils": "^1.0.17"

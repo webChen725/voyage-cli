@@ -31,6 +31,7 @@
     "commander": "^6.2.1",
     "dotenv": "^10.0.0",
     "path-exists": "^4.0.0",
+    "pkg-dir": "^5.0.0",
     "root-check": "^1.0.0",
     "semver": "^7.3.5",
     "user-home": "^3.0.0",
