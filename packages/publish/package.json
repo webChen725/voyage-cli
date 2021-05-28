@@ -29,7 +29,7 @@
     "inquirer": "^8.1.0",
     "simple-git": "^2.39.0",
     "user-home": "^3.0.0",
-    "voyage-cli-utils": "file:../utils"
+    "voyage-cli-utils": "^1.0.17"
   },
-  "gitHead": "72dba97582210eab850783767d302ca9f16fb377"
+  "gitHead": "22abd27c81bbba3878f74bd7ddf75049aed5b4b8"
 }
