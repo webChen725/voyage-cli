@@ -2,6 +2,7 @@
 
 module.exports = core;
 const fs = require("fs");
+const fse = require("fs-extra");
 const semver = require("semver");
 const colors = require("colors");
 const userHome = require("user-home");
@@ -125,7 +126,7 @@ async function checkGlobalUpdate(){
     const currentVersion = pkg.version;
     const npmName = pkg.name;
     const lastVersion = await getNpmSemverVersion(currentVersion, npmName);
-    if(lastVersion && semver.gte(lastVersion, currentVersion)){
+    if(lastVersion && semver.gt(lastVersion, currentVersion)){
         log.warn(`请手动更新 ${npmName}, 当前版本：${currentVersion}, 最新版本：${lastVersion}。你可以通过: npm install -g ${npmName} 完成更新`)
     }
 }
@@ -140,7 +141,7 @@ async function prepare(){
     checkUserHome();
     checkInputArgs();
     checkEnv();
-    // await checkGlobalUpdate();
+    await checkGlobalUpdate();
 }
 
 
@@ -197,6 +198,26 @@ function registerCommand(){
             await exec({packagePath, packageName, packageVersion}, {}, { config, args });
         })
         
+    program.command("clean")
+        .description("清空缓存文件")
+        .option('-a, --all', '清空全部')
+        .option('-d, --dep', '清空依赖文件')
+        .action((option) => {
+            log.notice("开始清空缓存文件");
+            if(option.all){
+                cleanAll();
+            } else if (option.dep) {
+                const depPath = path.resolve(config.cliHome, DEPENDENCIES_PATH);
+                if(fs.existsSync(depPath)) {
+                    fse.emptyDirSync(depPath);
+                    log.success("清空依赖文件成功", depPath);
+                } else {
+                    log.success("文件夹不存在", depPath);
+                }
+            } else {
+                cleanAll();
+            }
+        })
 
     // 监听debug模式
     program.on("option:debug", function(){
@@ -279,5 +300,15 @@ async function exec({ packagePath, packageName, packageVersion }, extraOptions, 
         }
     }catch(err){
         log.error(err.message);
+    }
+}
+
+
+function cleanAll(){
+    if(fs.existsSync(config.cliHome)){
+        fse.emptyDirSync(config.cliHome);
+        log.success("清空全部缓存文件成功", config.cliHome);
+    } else {
+        log.success("文件夹不存在", config.cliHome);
     }
 }
